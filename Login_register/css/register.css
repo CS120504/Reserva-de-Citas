@@ -8,37 +8,18 @@
     font-family: 'Montserrat';
 }
 
-.Top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 90px;
-    border-bottom: 1px solid #ffffff;
-    box-shadow: 1px -2px 14px 0px #30D5C8;
-}
-
-.Top-right {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    align-items: center;
-    margin-right: 50px;
-    font-size: 18px;
-}
-
-.wrapper {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+body{
     background: url(../img/LuzDivina.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    min-height: 100vh;
 }
 
 form.login {
@@ -79,6 +60,7 @@ form.login h1 {
 }
 /*INPUTS*/
 input.input-register {
+    color: white;
     height: 40px;
     width: 300px;
     border-radius: 25px;
@@ -131,4 +113,10 @@ label a {
     font-weight: bold;
     color: white;
     text-decoration: none;
+}
+.fondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000004f;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/register.css?v=1.1">
 </head>
 <body>
+    <div class="fondo"> </div>
     <div class="wrapper">
         <form action="../Login_register/procesos.php" class="login" method="post">
             <h1>Registrarse</h1>

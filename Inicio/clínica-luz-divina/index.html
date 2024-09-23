@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Luz Divina</title>
-    <link rel="stylesheet" href="css/css.css" /> 
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/css.css?v=1.1">
     <link rel="shortcut icon" href="img/clínica-luz-divina.ico" type="image/x-icon" />
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <img src="img/logo-clínica-luz-divina.png" alt="logo" class="logo" />
+            <div class="logo_menu">
+                <label for="btn-menu" class="icon-menu">
+                    <img class="menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATVJREFUSEuVVlEWgyAMK/c/9PZEpAlNEP3YU4ZNm6bB1iLi138i8r5Fi9+11K/x93jKBVwve+DdGQEBOiJeLkLZw7DXk0yxVzAQ8T6BTxAj2kmZmQRzmcBIL+Z7UT2vtbSnBxjUscY9Q1YAgJtcesCxC7OZHicEPRhZoHxKUJFpBWbaizSR2C2AbTInjXPghF7ke6yMm3bT5hxALeWXpqhB20DN7VsGJaVz0GbdOcJeoSLU1B1JXw1aB3C+JIhZraDQDmx98R9Wke57G1bBDvDucyKaFu0D4GRy5mda3ZD0atd5EDjy0GXFJK/SXyXYfXrrGG547nUQDlHElqvVwiUVgxNU20neTm+Zj+qgtx7pPPh+9uoKuHZwvheKiqJYq+4jgSYZaXG6zs8P16UVWHrpyctne/46abIjZqh4wQAAAABJRU5ErkJggg=="/>
+                </label>
+                <img src="img/logo-clínica-luz-divina.png" alt="logo" class="logo" />
+            </div>
             <nav class="navbar">
                 <ul class="nav-links">
                     <li><a href="#home">Inicio</a></li>
@@ -20,6 +26,14 @@
                 </ul>
             </nav>
             <a href="../../Login_register/login.php" class="btn-ingresar">Ingresar</a>
+        </div>
+        <!------MENU DESPLEGABLE----->
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav></nav>
+                <label for="btn-menu" class="icon-equis"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmlJREFUSEuFVotxpDAMfeoEKglbyWYrWbaSXCqBVBKuEh1PkkE2sMdMZsArW3ofyRGkRwBofOf3HPP2PTa15wC2IhDoluBw0FXGt5XwzAsEtuybBwEGBT4AGQBdAMyA/AV0hmBuq4p6jQ5PcIBmCx2Arzh0I85Q1vFMeAOwVOekmDNaxzXDMzYsAnyrVzoL0K3vAxQs4A5BBwWTfK/xYy3iOUUjIM+Q+7VmZ7LtaShnkk8rxp/T+LyfG35jgbDJtXvrvZiDQCcVLFB5mDbJjdlFkwIDgD8CPArX63cH21zlYTEb74ZU8Ay6+jqBfxHqlx8k/d4RFNqSmpDhEPLO9Z9CoWljpthiDYXsyGUElFy+1jrH6AlWORkCVgvcIr64i2s9cUW8mUOA14reBM82ZXaieJCiJEwnAPktbuGhREQ0fen8iOc6C2L1N0+8++NXoLRgHzy24k+AdEFdVH5wuJlEgEUNWUHgcXQPAwh5aZwTTWeVcxcFJ108qPVwGmd1HxBaiClzSpAPd5GTJq7NpqQbhRQLHqbBuci5uWRafW2cOzpDWejax4Tj2EW29xpBEYgVuU3dk3TXvbglNOgAmQQ6a6nUkTExB+JmlCwyBSw+9kZL3di4hb/QXaGBVVJcGA5ysdpxzWYpoyKqyPfE5bzgSOcU4OMjppqm9YVjQsXvh+EVLkqN7rwHWGvS/GOFIILaCUnnkOufGNfFRaz6Ho7i1iimvhkvbrR84YT3Dz21cWA9ES47ADxDkBuH44GI+PfBPgk2eSgHHQXdR/pJEZcI/v8PwNsLYh9Ah06PErNQ5+zki6h2Wi7uH745CS+BS+gkAAAAAElFTkSuQmCC"/></label>
+            </div>
         </div>
     </header>
     <div class="preload">
