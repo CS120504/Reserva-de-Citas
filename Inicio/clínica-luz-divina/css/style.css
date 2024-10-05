@@ -1,6 +1,8 @@
-body {
+* {
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat';
+    overflow-x: clip;
 }
 
 .header {
@@ -261,4 +263,31 @@ label.icon-equis {
     top: 20px;
     right: 20px;
     cursor: pointer;
+}
+.boxes_1, .boxes_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.section-pb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gar-section-mul {
+    padding: 80px 50px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #bfbfbf;
+}
+.\32 -section-con {
+    max-width: 1200px; /* O el ancho que desees */
+    margin: 0 auto; /* Centra el contenedor */
+    display: grid;
+    gap: 40px;
+    justify-content: center;
 }

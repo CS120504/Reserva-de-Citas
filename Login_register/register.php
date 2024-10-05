@@ -36,10 +36,15 @@
                 </label>
             </div>
             <div>
-                 <button type="summit" class="btn">Registrarse</button>
+                 <button type="summit" class="btn" onclick="mostrarMensaje()">Registrarse</button>
             </div>
+            <script>
+                function mostrarMensaje() {
+                    alert('HOLA');
+                }
+            </script>
             <div class="dont-account">
-                    <p>¿Tienes una cuenta? <a href="../Login_register/register.php">Inicar Sesión</a></p>
+                    <p>¿Tienes una cuenta? <a href="../Login_register/login.php">Inicar Sesión</a></p>
             </div>
          </form>
     </div>
