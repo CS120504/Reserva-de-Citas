@@ -74,30 +74,42 @@
         <div class="2-section-con">
             <div class="boxes_1">
                 <div class="gar-section-mul">
-                    <div class="gar-section-mul_Top"><h2>Citas</h2></div>
-                    <div class="gar-section-mul_Bottom"><p>Reserva una cita</p></div>
+                    <div class="gar-section-mul-content">
+                        <h2>Citas</h2>
+                        <p>Reserva una cita</p>
+                    </div>
                 </div>
                 <div class="gar-section-mul">
-                    <div class="gar-section-mul_Top"><h2>Citas</h2></div>
-                    <div class="gar-section-mul_Bottom"><p>Reserva una cita</p></div>
+                    <div class="gar-section-mul-content">
+                        <h2>Citas</h2>
+                        <p>Reserva una cita</p>
+                    </div>
                 </div>
                 <div class="gar-section-mul">
-                    <div class="gar-section-mul_Top"><h2>Citas</h2></div>
-                    <div class="gar-section-mul_Bottom"><p>Reserva una cita</p></div>
+                    <div class="gar-section-mul-content">
+                        <h2>Citas</h2>
+                        <p>Reserva una cita</p>
+                    </div>
                 </div>
             </div>
             <div class="boxes_2">
                 <div class="gar-section-mul">
-                    <div class="gar-section-mul_Top"><h2>Citas</h2></div>
-                    <div class="gar-section-mul_Bottom"><p>Reserva una cita</p></div>
+                    <div class="gar-section-mul-content">
+                        <h2>Citas</h2>
+                        <p>Reserva una cita</p>
+                    </div>
                 </div>
                 <div class="gar-section-mul">
-                    <div class="gar-section-mul_Top"><h2>Citas</h2></div>
-                    <div class="gar-section-mul_Bottom"><p>Reserva una cita</p></div>
+                    <div class="gar-section-mul-content">
+                        <h2>Citas</h2>
+                        <p>Reserva una cita</p>
+                    </div>
                 </div>
                 <div class="gar-section-mul">
-                    <div class="gar-section-mul_Top"><h2>Citas</h2></div>
-                    <div class="gar-section-mul_Bottom"><p>Reserva una cita</p></div>
+                    <div class="gar-section-mul-content">
+                        <h2>Citas</h2>
+                        <p>Reserva una cita</p>
+                    </div>
                 </div>
             </div>
         </div>
