@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css/css.css?v=1.1">
     <link rel="shortcut icon" href="img/clínica-luz-divina.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
     <header class="header">
@@ -22,7 +23,7 @@
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
-            <a href="../../Login_register/login.php" class="btn-ingresar">Ingresar</a>
+            <a href="../../Login_register/login.php" class="btn-ingresar">Reservar cita</a>
         </div>
     </header>
     <div class="preload">
@@ -73,47 +74,205 @@
     <div class="section-pb">
         <div class="2-section-con">
             <div class="boxes_1">
-                <div class="gar-section-mul">
+                <div class="gar-section-mul" style="background-image: url(https://img.freepik.com/fotos-premium/aprobacion-medica-medico-firma-documento-tratamiento-pacientes-afirmando-atencion-medica-vertical-mobil_896558-38249.jpg)">
                     <div class="gar-section-mul-content">
                         <h2>Citas</h2>
-                        <p>Reserva una cita</p>
+                        <p>Reserva una cita a través de nuestro canal digital</p>
+                        <a>Reserva una cita</a>
                     </div>
                 </div>
-                <div class="gar-section-mul">
+                <div class="gar-section-mul" style="background-image: url(img/f.elconfidencial.com_original_a67_a03_50a_a67a0350a3cf3bb2558426a364b37db5.jpg)">
                     <div class="gar-section-mul-content">
-                        <h2>Citas</h2>
-                        <p>Reserva una cita</p>
+                        <h2>Pacientes</h2>
+                        <p>Atención integral en tu bienestar y el de tu familia</p>
+                        <a>Conoce más</a>
                     </div>
                 </div>
-                <div class="gar-section-mul">
+                <div class="gar-section-mul" style="background-image: url(https://st3.depositphotos.com/8846918/13292/i/450/depositphotos_132925098-stock-photo-doctor-with-a-stethoscope-in.jpg)">
                     <div class="gar-section-mul-content">
-                        <h2>Citas</h2>
-                        <p>Reserva una cita</p>
+                        <h2>Staff médico</h2>
+                        <p>Conoce a tu doctor de <br>confianza</p>
+                        <a>Conoce al staff</a>
                     </div>
                 </div>
-            </div>
-            <div class="boxes_2">
-                <div class="gar-section-mul">
+                <div class="gar-section-mul" style="background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230629/pngtree-isolated-3d-rendering-of-a-single-calendar-object-image_3698439.jpg)">
                     <div class="gar-section-mul-content">
-                        <h2>Citas</h2>
-                        <p>Reserva una cita</p>
-                    </div>
-                </div>
-                <div class="gar-section-mul">
-                    <div class="gar-section-mul-content">
-                        <h2>Citas</h2>
-                        <p>Reserva una cita</p>
-                    </div>
-                </div>
-                <div class="gar-section-mul">
-                    <div class="gar-section-mul-content">
-                        <h2>Citas</h2>
-                        <p>Reserva una cita</p>
+                        <h2>Horarios</h2>
+                        <p>Conoce nuestros horarios</p>
+                        <a>Conoce los horarios</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <section>
+        <div class="section_content">
+            <div class="section_content_text">
+                <p>
+                Con más de 30 años de experiencia en el cuidado de la salud de <br> millones de peruanos, en la Clínica San Pablo Surco, parte <br> de la Red de Clínicas San Pablo, trabajamos día a día para poder <br> ofrecer el servicio de calidad y seguridad que tu familia merece. <br>
+                Por tercera vez y de manera consecutiva, en mayo del 2024 la <br> Clinica San Pablo Surco fue nuevamente acreditada por la Joint <br> Commission International JCI, organismo líder mundial que <br>certifica los estándares de excelencia en las instituciones de salud <br>en el mundo.
+                Con un staff <br> de reconocidos médicos, en San Pablo Surco ofrecemos atención <br>en todas las especialidades, avalados por equipos de última generación y la <br>mejor infraestructura.
+                Conoces nuestros servicios:
+                </p>
+                <ul>
+                    <li>Atención emergencia adultos y niños</li>
+                    <li>Unidad de cuidados intensivos</li>
+                    <li>Ambulancia Cardiomóvil</li>
+                    <li>Atención hospitalaria y ambulatoria</li>
+                    <li>Unidad materno infantil</li>
+                    <li>Centro de Imágenes Especializadas</li>
+                    <li>Centro Oftalmológico</li>
+                </ul>
+            </div>
+            <img src="img/logo-clínica-luz-divina.png">
+        </div>
+    </section>
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                            <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay">
+
+                        </span>
+                        <div class="card-image">
+                        <img src="img/Minsa.jpeg" alt="minsa" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Ministerio de Salud</h2>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum similique, tempora ex laborum nam inventore non consequatur. Rem nulla sapiente dolor impedit officiis numquam ducimus assumenda neque accusantium libero!</p>
+                        <button class="button" onclick="window.location.href='';">Ver Más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/slide.js"></script>
 <footer>
     <div class="footer">
         <div class="footer_content">
