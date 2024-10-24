@@ -236,6 +236,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform 0.3s ease;
+    box-shadow: 0px 0px 8px 0px #000000d4;
 }
 .gar-section-mul:hover {
     transform: scale(1.1);
