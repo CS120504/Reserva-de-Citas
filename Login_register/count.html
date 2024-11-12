@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Cita</title>
+    <link rel="stylesheet" href="css/count.cssv=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body> 
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido al Sistema de Reservación</h2>
+                <p>Si ya tienes una cuenta, por favor inicia sesión aquí</p>
+                <button class="sign-up-btn">Iniciar Sesión</button>
+            </div>
+        </div>
+        
+        <!-- Formulario unificado -->
+        <form class="formulario" id="form-completo" action="../citas.html">
+            <!-- Primera parte -->
+            <div id="form-part-1">
+                <h2 class="create-account">Crear una cuenta</h2>
+                <p class="cuenta-gratis">Crea tu cuenta de forma gratuita y comienza a programar tus citas de inmediato</p>
+                
+                <select name="tipo-identificacion" id="tipo-identificacion" required>
+                    <option value="" disabled selected hidden>Seleccione tipo de Identificación</option>
+                    <option value="DNI">DNI</option>
+                    <option value="Carnet de Extranjería">Carnet de Extranjería</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                </select>
+                
+                <input type="number" placeholder="Número de Identificación" id="numero-identificacion" required>
+                <input type="date" required>
+                <input type="button" value="Continuar" id="continue-btn">
+            </div>
+
+            <!-- Segunda parte, inicialmente oculta -->
+            <div id="form-part-2" style="display: none;">
+                <h2 class="create-account">Completa tu Registro</h2>
+
+                <input type="text" placeholder="Nombres" required>
+                <input type="text" placeholder="Apellido Paterno" required>
+                <input type="text" placeholder="Apellido Materno" required>
+                <input type="number" placeholder="Número de Teléfono" required style="font-size: 14px;">
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="password" placeholder="Confirmar Contraseña" required>
+                
+                <div style="text-align: left; padding-left: 15%;">
+                    <label>
+                        <input type="checkbox" required> <p style="font-size: 14px;">Acepto los <a href="terms.html">términos y condiciones</a></p>
+                    </label>
+                </div>
+                
+                <input type="submit" value="Registrarse">
+            </div>
+        </form>
+    </div>
+
+    <div class="container-form sign-in">
+        <form class="formulario" id="form_sign-in" action="../citas.html">
+            <h2 class="create-account">Iniciar Sesión</h2>
+            <p class="cuenta-gratis">Inicia sesión para reservar tus citas de manera rápida y sencilla.</p>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Contraseña" required>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aún no tienes una cuenta, por favor regístrate aquí</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

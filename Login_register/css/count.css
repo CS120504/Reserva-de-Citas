@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/LuzDivina.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #000000a6;
+    z-index: -1;
+}
+
+
+.container-form {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    align-items: center;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message {
+    padding: 1rem;
+}
+
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    text-shadow: 0px 5px 4px rgb(0 0 0 / 99%);
+}
+
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #4a4aee;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+    text-shadow: 0px 4px 7px #000000cc;
+}
+
+.message button:hover {
+    background-color: #6464f8;
+}
+
+.formulario {
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(51 51 51 / 70%);
+    text-align: center;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    height: 100%;
+    box-shadow: inset 0px 0px 20px 0px #ababab38;
+}
+
+
+p.cuenta-gratis {
+    font-size: 14px;
+    color: #c5c5c5;
+}
+
+input[type="checkbox"] {
+    margin: 0 !important;
+    width: 12px !important;
+}
+
+form#form_sign-in{
+    height: 400px;
+}
+
+.formulario a {
+    font-size: 14.5px;
+    color: white;
+}
+
+
+.create-account {
+    font-size: 1.7rem;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 6px #0000009e;
+}
+
+
+.formulario input, .formulario select {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
+}
+
+.formulario input::placeholder {
+    color: #ffffff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    font-size: 12px;
+}
+
+option {
+    color: black;
+}
+
+.formulario input[type="submit"], .formulario input[type="button"] {
+    width: 60%;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #222;
+}
+
+.formulario input[type="submit"]:hover, .formulario input[type="button"]:hover {
+    background-color: #e0e0e0;
+}
+
+input[type="date"]{
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    -webkit-appearance: none;
+}
+
+input[type="date"]:before {
+    content: "";
+    position: absolute;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZRJREFUSEudVet5wzAIPDZpN3FHySQdpaPEo2QTmiDxEGA7rf/YnyV0cHcgQn4IAAPz5avlx9xzsfG1vJ4WAwoYgcAv/BQ08zhIohQRELWWkYge68DM8k0kZTc4rxXLyLOzvRplAAllrhM1sZLOQhEBGwM/AD6asq5pITzAuAHYVcQ1M+D+XNwaKgIBPXRwwwPgTwMYFBpPXO1zfGCj6aSFSY2QK3ClglGuLbtaj8CkSQcNZFMrWp9p626JJ8ArSMFKUa7sinhdL65bbOoVTHcdtXnTE/NXAiAEACnNOPKAaYPx4tk1WmHO+KwCObIJMJ/JepgeY//4MRKVbpNxMjUYOsXHAE4suGSR5pKLrIX/S+RmIBYNFoDYaD7TJmWRoqhBtPVKkZCVuHSbFU5tvPUanCakGjQV9CwctZw1XRrvOk1d5n48v9tm1YXGnRrwPYA0IdcLaqG02PQOwpbv5Hheoa6ytgP4GiJXirZnl3yDsR2zfcKXXDh0I/DeUuGZxsv9r/dBnbJxdDUzuKnliDOj36+VX95TxiH27pzlAAAAAElFTkSuQmCC);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 0;
+    filter: invert(1);
+    pointer-events: none;
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+
+label {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+div#form-part-1, div#form-part-2 {
+    display: grid;
+    height: 100%;
+    align-items: center;
+}

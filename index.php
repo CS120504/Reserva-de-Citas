@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Luz Divina</title>
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/css.css?v=1.1">
+    <link rel="stylesheet" href="css/botones.css">
     <link rel="shortcut icon" href="img/clínica-luz-divina.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
@@ -23,7 +23,7 @@
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
-            <a href="../../Login_register/login.php" class="btn-ingresar">Reservar cita</a>
+            <a href="Login_register/count.html" class="btn-ingresar">Reservar cita</a>
         </div>
     </header>
     <div class="preload">

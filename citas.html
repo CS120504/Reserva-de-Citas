@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Cita</title>
+    <link rel="stylesheet" href="css/citas.css?v=1.0">
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            <h1>Registrar Cita</h1>
+            <div class="form-group">
+                <label for="especialidad">Especialidad:</label>
+                <select id="especialidad" name="especialidad" required>
+                    <option value="" selected disabled hidden>Seleccionar Especialidad</option>
+                    <option value="Especialidad 1">Especialidad 1</option>
+                    <option value="Especialidad 2">Especialidad 2</option>
+                    <option value="Especialidad 3">Especialidad 3</option>
+                    <option value="Especialidad 4">Especialidad 4</option>
+                </select>
+            </div>
+            
+            <div class="form-group-date">
+                <label for="fecha">Seleccionar Horario:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="doctor">Doctores Disponibles:</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="" selected disabled hidden>Seleccionar Doctor</option>
+                    <option value="Doctor 1">Doctor 1</option>
+                    <option value="Doctor 2">Doctor 2</option>
+                    <option value="Doctor 3">Doctor 3</option>
+                    <option value="Doctor 4">Doctor 4</option>
+                </select>
+            </div>
+
+            <div class="button-group">
+                <button type="button" id="cancelarBtn" class="btn cancel">Cancelar</button>
+                <button type="submit" class="btn">Continuar</button>
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close" id="closeBtn">&times;</span>
+                  <p>¿Estás seguro de querer salir?</p>
+                  <div class="buttons-modal">
+                    <button id="cancelarSalir">Salir</button>
+                    <button id="continuarSalir" type="button">Continuar</button>
+                  </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+
+        var modal = document.getElementById("modal");
+        var cancelarBtn = document.getElementById("cancelarBtn");
+        var closeBtn = document.getElementById("closeBtn");
+        var cancelarSalir = document.getElementById("cancelarSalir");
+        var continuarSalir = document.getElementById("continuarSalir");
+
+        cancelarBtn.onclick = function() {
+        modal.style.display = "flex";
+        }
+
+        closeBtn.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        cancelarSalir.onclick = function() {
+        modal.style.display = "none";
+        window.location.href = "index.php";
+        }
+
+        continuarSalir.onclick = function() {
+        modal.style.display = "none";
+        }
+
+
+        const select = document.getElementById("especialidad");
+        const formGroup = document.querySelector(".form-group");
+
+        select.addEventListener("focus", function() {
+            formGroup.classList.add("select-open");
+        });
+
+        select.addEventListener("blur", function() {
+            formGroup.classList.remove("select-open");
+        });
+
+    </script>
+</body>
+</html>
