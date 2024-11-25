@@ -281,22 +281,23 @@
     bottom: 20px;
     transform: translateY(20px);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
 }
 .gar-section-mul:hover .gar-section-mul-content a {
     opacity: 1;
     transform: translateY(0);
 }
 .\32 -section-con {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
+    width: 100%;
+    display: flex;
     gap: 40px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .section_content_text {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-width: 640px;
 }
 .section_content_text ul {
     margin-left: 30px;
@@ -530,8 +531,10 @@ footer p, footer a{
     align-items: center;
 }
 .section_content img {
-    width: 230px;
-    height: 126px;
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px 1px #0000008a;
 }
 .section_content p, .section_content li {
     font-size: 15px;

@@ -72,7 +72,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Diseñada por Carlos Sánchez Negrete | 2024 PE | All rights deserved</p>
+        <p>© <?php echo date("Y"); ?> Diseñada por Carlos S., Josseph V., Manuel E., Antonio A., Daniel G., Hector Z. | PE | All rights reserved</p>
     </footer>
 </body>
 </html>
